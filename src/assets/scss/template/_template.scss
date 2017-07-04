@@ -5,11 +5,7 @@
 body,
 html,
 .body {
-  background: #f3f3f3 !important;
-}
-
-.container.header {
-  background: #f3f3f3;
+  background: #E9EAEB !important;
 }
 
 .body-drip {
@@ -18,7 +14,7 @@ html,
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: #E9EAEB;
 }
 
 .header .columns {
@@ -26,8 +22,10 @@ html,
 }
 
 .header p {
-  color: #fff;
-  padding-top: 15px;
+  color: #0a0a0a;
+  white-space: nowrap;
+  font-weight: lighter;
+  padding-top: 20px;
 }
 
 .header .wrapper-inner {
@@ -58,10 +56,14 @@ table.button.google table td {
   background: #f3f3f3;
 }
 
-.menu.top {
-  color: #000000
+.lowerlogo p {
+  color: #fefefe;
+  white-space: nowrap;
+  font-weight: lighter;
+
 }
 
-.item .bottom {
-  color: #ffffff
+.footer1 p {
+  color: #fefefe;
+  font-size: 14px;
 }
